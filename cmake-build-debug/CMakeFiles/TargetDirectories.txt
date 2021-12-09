@@ -1,0 +1,3 @@
+/home/mr8ug/Documents/GitHub/MIADIC21_PROYECTO1/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/mr8ug/Documents/GitHub/MIADIC21_PROYECTO1/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/mr8ug/Documents/GitHub/MIADIC21_PROYECTO1/cmake-build-debug/CMakeFiles/MIADIC21_PROYECTO1.dir

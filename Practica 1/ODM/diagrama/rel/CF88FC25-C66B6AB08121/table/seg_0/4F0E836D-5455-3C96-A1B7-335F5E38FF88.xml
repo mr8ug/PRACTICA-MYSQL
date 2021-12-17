@@ -17,6 +17,9 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DD5952D6-C2DC-63EE-D1CE-BCC88BF50B69" referredColumn="CCC53302-403B-4716-0284-6E9217D13D19"/>
+</associations>
 </Column>
 <Column name="id_Transaction" id="DF71B4A6-E7A7-0304-0FE9-0F6CCCAB569A">
 <createdBy>mr8ug</createdBy>
@@ -34,13 +37,15 @@
 <createdBy>mr8ug</createdBy>
 <createdTime>2021-12-17 20:10:02 UTC</createdTime>
 <ownerDesignName>diagrama</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>50 CHAR</dataTypeSize>
 <ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A8AA6A57-12B5-AA35-362C-EF1EA79005F6" referredColumn="7BFC8C91-8C13-7D94-BE2C-698608CF6F63"/>
+</associations>
 </Column>
 <Column name="transaction_isodate" id="732046E0-1AD2-DC4C-E6AD-A179CED9F9CA">
 <createdBy>mr8ug</createdBy>
@@ -108,6 +113,26 @@
 <ownerDesignName>diagrama</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0E3E5ECA-A527-5D7D-B85C-1B8A13CAC10A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2F39F0BB-8059-AD71-03DC-31FE1142CAFF" name="transaction_project_FK">
+<createdBy>mr8ug</createdBy>
+<createdTime>2021-12-17 22:04:29 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="28B74FEC-36E0-D25E-B475-97161566288F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="74EC45AC-AE72-7155-9529-806481F8CD1E" name="transaction_currency_FK">
+<createdBy>mr8ug</createdBy>
+<createdTime>2021-12-17 22:04:29 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+<indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="0E3E5ECA-A527-5D7D-B85C-1B8A13CAC10A"/>

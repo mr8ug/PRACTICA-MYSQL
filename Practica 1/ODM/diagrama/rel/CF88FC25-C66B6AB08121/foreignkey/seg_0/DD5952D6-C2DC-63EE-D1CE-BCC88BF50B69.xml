@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="DD5952D6-C2DC-63EE-D1CE-BCC88BF50B69" containerWithKeyObject="4F0E836D-5455-3C96-A1B7-335F5E38FF88" localFKIndex="74EC45AC-AE72-7155-9529-806481F8CD1E" name="transaction_currency_FK">
+<createdBy>mr8ug</createdBy>
+<createdTime>2021-12-17 22:04:29 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+<referredTableLongName>currency</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>CDFF6D68-CC4B-C4D0-A38C-3163094B36F6</referredTableID>
+<keyObject>C85DF037-AE6C-CE91-4D09-6BE04450DA89</keyObject>
+<referredKeyID>C85DF037-AE6C-CE91-4D09-6BE04450DA89</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>idCurrency</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

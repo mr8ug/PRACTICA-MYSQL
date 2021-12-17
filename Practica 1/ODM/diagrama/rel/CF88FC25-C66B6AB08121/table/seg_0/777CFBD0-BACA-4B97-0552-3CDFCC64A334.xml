@@ -22,13 +22,15 @@
 <createdBy>mr8ug</createdBy>
 <createdTime>2021-12-17 19:55:17 UTC</createdTime>
 <ownerDesignName>diagrama</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>50 CHAR</dataTypeSize>
 <ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="44599DAC-B804-DACF-9242-33E7564972B4" referredColumn="7BFC8C91-8C13-7D94-BE2C-698608CF6F63"/>
+</associations>
 </Column>
 <Column name="project_location_id" id="E362ED71-06A3-D38F-BFD0-4466826457D4">
 <createdBy>mr8ug</createdBy>
@@ -46,13 +48,14 @@
 <createdBy>mr8ug</createdBy>
 <createdTime>2021-12-17 19:55:17 UTC</createdTime>
 <ownerDesignName>diagrama</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>150 CHAR</dataTypeSize>
-<ownDataTypeParameters>150 CHAR,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="277E4B4D-0BCC-B17D-BE3F-760D221B7D9B" referredColumn="6C2443DA-6D48-E0AC-7BF8-0E89C87A16BF"/>
+</associations>
 </Column>
 <Column name="transactions_start_year" id="5CD2EA1C-4B7B-D741-6A3E-F9F2979708A3">
 <createdBy>mr8ug</createdBy>
@@ -111,6 +114,26 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="61CC2373-3AD4-2501-BABD-D0761BBFCE6A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3E79921A-4FE7-FDA1-A47D-250F8ACE3F72" name="level_geoname_FK">
+<createdBy>mr8ug</createdBy>
+<createdTime>2021-12-17 21:57:03 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B6DAEF81-5A0B-7D4B-2917-254993C4A492"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8E7E6823-807B-AB99-42C8-E33A8409164E" name="level_project_FK">
+<createdBy>mr8ug</createdBy>
+<createdTime>2021-12-17 22:31:05 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E686B225-E5D4-B324-FB6D-FD4C75D3AF89"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

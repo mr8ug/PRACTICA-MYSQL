@@ -35,6 +35,7 @@
 <createdBy>mr8ug</createdBy>
 <createdTime>2021-12-17 19:59:49 UTC</createdTime>
 <ownerDesignName>diagrama</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>

@@ -16,6 +16,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="name" id="E994E539-CBFF-C05D-6C75-BFC9A9BA123B">
@@ -26,8 +27,8 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>100 CHAR</dataTypeSize>
-<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<dataTypeSize>150 CHAR</dataTypeSize>
+<ownDataTypeParameters>150 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="iso2" id="E3104243-E1EB-1169-AA23-F01EDC4DD16A">

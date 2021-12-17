@@ -14,8 +14,9 @@
 <ownerDesignName>diagrama</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150 CHAR</dataTypeSize>
+<ownDataTypeParameters>150 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="is_geocoded" id="7FA11A51-6681-04D8-A15A-0ECE69321C58">
@@ -91,30 +92,33 @@
 <createdBy>mr8ug</createdBy>
 <createdTime>2021-12-17 20:19:45 UTC</createdTime>
 <ownerDesignName>diagrama</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>150 CHAR</dataTypeSize>
-<ownDataTypeParameters>150 CHAR,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="755C6665-27FD-46D6-1620-E0F7C9CE51AA" referredColumn="1C705D43-EC35-F00A-A366-1C86871AFA6F"/>
+</associations>
 </Column>
 <Column name="recipients_iso3" id="9DB75BD8-0196-9041-A372-3D816667AEFE">
 <createdBy>mr8ug</createdBy>
 <createdTime>2021-12-17 20:19:45 UTC</createdTime>
 <ownerDesignName>diagrama</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>150 CHAR</dataTypeSize>
-<ownDataTypeParameters>150 CHAR,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0983749D-BF01-97E7-573F-BD9B1CB1784C" referredColumn="1C705D43-EC35-F00A-A366-1C86871AFA6F"/>
+</associations>
 </Column>
 <Column name="ad_sector_codes" id="0F0B9BA1-35A3-98A1-EE92-9458FD9FEC41">
 <createdBy>mr8ug</createdBy>
 <createdTime>2021-12-17 20:19:45 UTC</createdTime>
 <ownerDesignName>diagrama</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
@@ -138,13 +142,14 @@
 <createdBy>mr8ug</createdBy>
 <createdTime>2021-12-17 20:19:45 UTC</createdTime>
 <ownerDesignName>diagrama</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>50 CHAR</dataTypeSize>
-<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="52D2DC05-7C35-69BF-53F6-4DCD78F23024" referredColumn="EA7C08D6-FD16-32B7-852B-7DF01F001038"/>
+</associations>
 </Column>
 <Column name="transtactions_start_year" id="564784F8-F8B8-B87A-2C5A-4601265E8924">
 <createdBy>mr8ug</createdBy>
@@ -202,7 +207,36 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="7BFC8C91-8C13-7D94-BE2C-698608CF6F63"/>
-<colUsage columnID="0F0B9BA1-35A3-98A1-EE92-9458FD9FEC41"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AE696E91-1437-0203-0D52-1FD46CC0C2EA" name="project_status_FK">
+<createdBy>mr8ug</createdBy>
+<createdTime>2021-12-17 22:03:01 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D174C1BF-3DC6-0603-D42C-BF13168DCC2A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2DF2E649-3039-C739-7D44-977426B1F409" name="project_countrycodes_FK">
+<createdBy>mr8ug</createdBy>
+<createdTime>2021-12-17 22:27:32 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CB58D718-3A30-E238-1979-3C8D463A4267"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C3828B2B-8987-B6C4-97E1-2C5AEF9C3550" name="project_countrycodes_FKv2">
+<createdBy>mr8ug</createdBy>
+<createdTime>2021-12-17 22:27:54 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9DB75BD8-0196-9041-A372-3D816667AEFE"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

@@ -16,6 +16,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="name_currency" id="3BDD9A25-CA96-5E1E-6D9C-E8E320A27A0B">

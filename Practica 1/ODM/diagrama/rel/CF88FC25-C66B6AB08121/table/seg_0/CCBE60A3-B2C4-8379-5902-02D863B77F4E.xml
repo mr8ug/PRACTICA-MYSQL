@@ -22,7 +22,6 @@
 <createdBy>mr8ug</createdBy>
 <createdTime>2021-12-17 19:39:14 UTC</createdTime>
 <ownerDesignName>diagrama</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
@@ -75,6 +74,9 @@
 <dataTypeSize>10 CHAR</dataTypeSize>
 <ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9B7585FB-9BF8-BCF1-5821-297EE0DA20E1" referredColumn="022B2250-EC5F-CE7E-574B-D2813534673D"/>
+</associations>
 </Column>
 <Column name="location_type_name" id="7D5E2001-40C8-9ABC-DE3D-EE2675AE065A">
 <createdBy>mr8ug</createdBy>
@@ -145,6 +147,16 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="6C2443DA-6D48-E0AC-7BF8-0E89C87A16BF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="386871AB-B1F3-5D51-3220-C10A6E913FB5" name="geoname_countrycodes_FKv1">
+<createdBy>mr8ug</createdBy>
+<createdTime>2021-12-17 22:03:46 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="92C9BACC-8524-E109-7EDF-A58190AD3DF4"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

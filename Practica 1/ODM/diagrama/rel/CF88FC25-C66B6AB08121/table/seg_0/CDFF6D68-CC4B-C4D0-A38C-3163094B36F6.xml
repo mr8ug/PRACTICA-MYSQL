@@ -1,0 +1,46 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CDFF6D68-CC4B-C4D0-A38C-3163094B36F6" name="currency">
+<createdBy>mr8ug</createdBy>
+<createdTime>2021-12-17 20:10:05 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+<ordsAlias>table_5</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idCurrency" id="CCC53302-403B-4716-0284-6E9217D13D19">
+<createdBy>mr8ug</createdBy>
+<createdTime>2021-12-17 20:11:07 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="name_currency" id="3BDD9A25-CA96-5E1E-6D9C-E8E320A27A0B">
+<createdBy>mr8ug</createdBy>
+<createdTime>2021-12-17 20:11:07 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C85DF037-AE6C-CE91-4D09-6BE04450DA89" name="currency_PK">
+<createdBy>mr8ug</createdBy>
+<createdTime>2021-12-17 20:11:07 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CCC53302-403B-4716-0284-6E9217D13D19"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

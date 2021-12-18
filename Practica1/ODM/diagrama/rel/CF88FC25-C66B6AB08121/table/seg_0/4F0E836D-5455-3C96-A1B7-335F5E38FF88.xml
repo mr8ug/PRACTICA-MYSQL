@@ -16,9 +16,11 @@
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="DD5952D6-C2DC-63EE-D1CE-BCC88BF50B69" referredColumn="CCC53302-403B-4716-0284-6E9217D13D19"/>
+<colAssociation fkAssociation="88634F71-1551-A84E-B581-A38D628320E2" referredColumn="DAD3867C-893E-DA24-F8A2-0F0E4B393E62"/>
+<colAssociation fkAssociation="6F36E6CB-850C-BEC1-D76A-10A73668EBE2" referredColumn="5817BF1B-6B96-0CBD-7A84-3F72807FD601"/>
 </associations>
 </Column>
 <Column name="id_Transaction" id="DF71B4A6-E7A7-0304-0FE9-0F6CCCAB569A">
@@ -43,9 +45,6 @@
 <dataTypeSize>50 CHAR</dataTypeSize>
 <ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="A8AA6A57-12B5-AA35-362C-EF1EA79005F6" referredColumn="7BFC8C91-8C13-7D94-BE2C-698608CF6F63"/>
-</associations>
 </Column>
 <Column name="transaction_isodate" id="732046E0-1AD2-DC4C-E6AD-A179CED9F9CA">
 <createdBy>mr8ug</createdBy>
@@ -88,9 +87,8 @@
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>10 CHAR</dataTypeSize>
-<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="transaction_value" id="C8425368-B6C9-9324-FF36-30B55BE80CAA">
@@ -118,19 +116,19 @@
 <colUsage columnID="0E3E5ECA-A527-5D7D-B85C-1B8A13CAC10A"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="2F39F0BB-8059-AD71-03DC-31FE1142CAFF" name="transaction_project_FK">
+<ind_PK_UK id="0F7AA01A-348F-E65D-D99C-B7174E5048B7" name="transaction_currency_FK">
 <createdBy>mr8ug</createdBy>
-<createdTime>2021-12-17 22:04:29 UTC</createdTime>
+<createdTime>2021-12-18 02:00:36 UTC</createdTime>
 <ownerDesignName>diagrama</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="28B74FEC-36E0-D25E-B475-97161566288F"/>
+<colUsage columnID="0E3E5ECA-A527-5D7D-B85C-1B8A13CAC10A"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="74EC45AC-AE72-7155-9529-806481F8CD1E" name="transaction_currency_FK">
+<ind_PK_UK id="760926F2-10D4-029D-D520-2F659168A8CE" name="transaction_project_FK">
 <createdBy>mr8ug</createdBy>
-<createdTime>2021-12-17 22:04:29 UTC</createdTime>
+<createdTime>2021-12-18 02:09:51 UTC</createdTime>
 <ownerDesignName>diagrama</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>

@@ -8,15 +8,15 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="idLocation" id="022B2250-EC5F-CE7E-574B-D2813534673D">
+<Column name="id" id="022B2250-EC5F-CE7E-574B-D2813534673D">
 <createdBy>mr8ug</createdBy>
 <createdTime>2021-12-17 19:59:49 UTC</createdTime>
 <ownerDesignName>diagrama</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>50 CHAR</dataTypeSize>
-<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="location_type_code" id="792A9CEF-C416-EFCA-8865-18A0FC8948C8">

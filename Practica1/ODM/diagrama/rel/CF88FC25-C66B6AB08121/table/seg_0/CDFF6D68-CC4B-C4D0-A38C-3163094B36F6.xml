@@ -8,6 +8,17 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="5817BF1B-6B96-0CBD-7A84-3F72807FD601">
+<createdBy>mr8ug</createdBy>
+<createdTime>2021-12-18 01:49:05 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 <Column name="idCurrency" id="CCC53302-403B-4716-0284-6E9217D13D19">
 <createdBy>mr8ug</createdBy>
 <createdTime>2021-12-17 20:11:07 UTC</createdTime>
@@ -40,7 +51,7 @@
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="CCC53302-403B-4716-0284-6E9217D13D19"/>
+<colUsage columnID="5817BF1B-6B96-0CBD-7A84-3F72807FD601"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

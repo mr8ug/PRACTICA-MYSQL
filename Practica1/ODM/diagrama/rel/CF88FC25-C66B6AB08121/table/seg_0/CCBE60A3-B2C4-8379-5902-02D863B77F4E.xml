@@ -16,6 +16,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="geoname_id" id="73FF790B-ABBC-0DD6-D056-176FD0D6B74F">
@@ -70,12 +71,12 @@
 <ownerDesignName>diagrama</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <dataTypeSize>10 CHAR</dataTypeSize>
 <ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="9B7585FB-9BF8-BCF1-5821-297EE0DA20E1" referredColumn="022B2250-EC5F-CE7E-574B-D2813534673D"/>
+<colAssociation fkAssociation="9FA5A2EB-1F40-44C4-6704-B5617FABBC1E" referredColumn="022B2250-EC5F-CE7E-574B-D2813534673D"/>
 </associations>
 </Column>
 <Column name="location_type_name" id="7D5E2001-40C8-9ABC-DE3D-EE2675AE065A">
@@ -149,9 +150,9 @@
 <colUsage columnID="6C2443DA-6D48-E0AC-7BF8-0E89C87A16BF"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="386871AB-B1F3-5D51-3220-C10A6E913FB5" name="geoname_countrycodes_FKv1">
+<ind_PK_UK id="0F6D6A6F-B2DF-ED62-1682-2E06E7C85687" name="geoname_locations_FK">
 <createdBy>mr8ug</createdBy>
-<createdTime>2021-12-17 22:03:46 UTC</createdTime>
+<createdTime>2021-12-18 02:03:08 UTC</createdTime>
 <ownerDesignName>diagrama</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>

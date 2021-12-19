@@ -1,4 +1,5 @@
-USE PRACTICA1;
+USE Practica1;
+
 
 LOAD DATA  INFILE '/var/lib/mysql-files/country_codes.tsv'
 INTO TABLE country_codes_temp

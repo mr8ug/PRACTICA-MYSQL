@@ -1,4 +1,4 @@
---despues del llenado de las bases se debera botar las temporales
+USE Practica1;
 
 DROP TABLE IF EXISTS country_codes_temp;
 DROP TABLE IF EXISTS geonames_temp;

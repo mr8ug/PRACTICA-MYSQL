@@ -1,4 +1,4 @@
-USE PRACTICA1;
+USE Practica1;
 
 LOAD DATA  INFILE '/var/lib/mysql-files/transactions.csv'
 INTO TABLE transactions_temp

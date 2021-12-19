@@ -1,4 +1,5 @@
-USE PRACTICA1;
+USE Practica1;
+
 
 LOAD DATA  INFILE '/var/lib/mysql-files/level_1a.csv'
 INTO TABLE level_1a_temp

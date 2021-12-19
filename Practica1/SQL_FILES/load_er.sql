@@ -1,3 +1,5 @@
+USE Practica1;
+
 DROP TABLE IF EXISTS level_1a, geoname, locations, project, countrycodes, status, transactions, currency;
 
 CREATE TABLE locations(

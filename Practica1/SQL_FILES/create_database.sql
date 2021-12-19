@@ -1,3 +1,4 @@
+DROP DATABASE IF EXISTS Practica1;
 CREATE DATABASE Practica1;
 
 CREATE USER 'admin_practica'@'localhost' IDENTIFIED BY 'admin';

@@ -1,0 +1,3 @@
+INSERT INTO transaction(id_transaction,id_project,transaction_isodate,transaction_year,transaction_value_code, transaction_currency,transaction_value)
+SELECT tt.transaction_id, (SELECT DISTINCT id from project as p1, transactions_temp as t1 where p1.id_project=t1.project_id LIMIT 1),  STR_TO_DATE(tt.transaction_isodate,"%d/%m/%Y"), tt.transaction_year, tt.transaction_value_code,(SELECT id from currency as c1, transactions_temp as t2 where c1.name_currency = t2.transaction_currency LIMIT 1), tt.transaction_value
+FROM transactions_temp as tt, project as p, currency as c;

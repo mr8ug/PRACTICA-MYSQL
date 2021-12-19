@@ -62,7 +62,7 @@ CREATE TABLE project(
     id_geocoded int NOT NULL,
     project_title varchar(150) NOT NULL,
     start_actual_isodate varchar(150) NOT NULL,
-    end_actual_isodate varchar(150) NOT NULL,
+    end_actual_isodate varchar(150),
     donors VARCHAR(150) NOT NULL,
     donors_iso3 VARCHAR(150) NOT NULL,
     recipients int NOT NULL,

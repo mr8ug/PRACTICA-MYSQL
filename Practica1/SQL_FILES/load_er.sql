@@ -93,17 +93,14 @@ CREATE TABLE currency(
 CREATE TABLE transaction(
     id int NOT NULL AUTO_INCREMENT,
     id_transaction varchar(50) NOT NULL,
-    id_project int NOT NULL,
+    id_project varchar(150) NOT NULL,
     transaction_isodate DATE NOT NULL,
     transaction_year int NOT NULL,
     transaction_value_code varchar(10) NOT NULL,
     transaction_currency int NOT NULL,
     transaction_value DECIMAL(20,5) NOT NULL,
     PRIMARY KEY(id),
-    CONSTRAINT transaction_project_fk FOREIGN KEY(id_project)
-    REFERENCES project(id)
-    ON DELETE CASCADE
-    ON UPDATE CASCADE,
+    
     CONSTRAINT transaction_currency_fk FOREIGN KEY(transaction_currency)
     REFERENCES currency(id)
     ON DELETE CASCADE
@@ -112,20 +109,13 @@ CREATE TABLE transaction(
 
 CREATE TABLE level_1a(
     id int NOT NULL AUTO_INCREMENT,
-    id_project int NOT NULL,
+    id_project varchar(150) NOT NULL,
     id_project_location VARCHAR(50) NOT NULL,
-    id_geoname int NOT NULL,
+    id_geoname varchar(50) NOT NULL,
     transaction_start_year int NOT NULL,
     transaction_end_year int NOT NULL,
     even_split_commitments DECIMAL(20,5),
     even_split_disbursements DECIMAL(20,5),
     PRIMARY KEY (id),
-    CONSTRAINT level_1a_project_fk FOREIGN KEY (id_project)
-    REFERENCES project(id)
-    ON DELETE CASCADE
-    ON UPDATE CASCADE,
-    CONSTRAINT level_1a_geoname_fk FOREIGN KEY(id_geoname)
-    REFERENCES geoname(id)
-    ON DELETE CASCADE
-    ON UPDATE CASCADE
+    
 );

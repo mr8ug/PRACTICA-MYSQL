@@ -3,7 +3,8 @@ USE Practica1;
 DROP TABLE IF EXISTS level_1a, geoname, locations, project, countrycodes, status, transactions, currency;
 
 CREATE TABLE locations(
-    location_type_code varchar(50) NOT NULL,
+    
+    location_type_code varchar(150) NOT NULL,
     location_type_name varchar(150) NOT NULL,
     PRIMARY KEY (location_type_code)
 );
@@ -11,14 +12,14 @@ CREATE TABLE locations(
 CREATE TABLE geoname(
     id int NOT NULL AUTO_INCREMENT,
     id_geoname INT NOT NULL,
-    place_name varchar(50) NOT NULL,
+    place_name varchar(255) NOT NULL,
     latitude DECIMAL(20,5) NOT NULL,
     longitude DECIMAL(20,5) NOT NULL,
-    location_type_code varchar(50) NOT NULL,
-    gazetter_adm_code varchar(255) NOT NULL,
-    gazetter_adm_name VARCHAR(255) NOT NULL,
+    location_type_code varchar(255) NOT NULL,
+    gazetteer_adm_code varchar(255) NOT NULL,
+    gazetteer_adm_name VARCHAR(255) NOT NULL,
     location_class int NOT NULL,
-    geographical_exactenss int NOT NULL,
+    geographical_exactness int NOT NULL,
     PRIMARY KEY(id),
     CONSTRAINT geoname_location_fk FOREIGN KEY(location_type_code)
     REFERENCES locations(location_type_code)
@@ -37,20 +38,20 @@ CREATE TABLE countrycodes(
     name varchar(150) NOT NULL,
     iso2 varchar(150) NOT NULL,
     name_name varchar(150) NOT NULL,
-    name_aiddata_code int NOT NULL,
+    name_aiddata_code varchar(150) NOT NULL,
     name_aiddata_name varchar(150) NOT NULL,
     name_cow_alpha varchar(150) NOT NULL,
-    name_cow_numeric int NOT NULL,
-    name_fao_code int NOT NULL,
+    name_cow_numeric varchar(150) NOT NULL ,
+    name_fao_code varchar(150) NOT NULL ,
     name_fips varchar(50) NOT NULL,
-    name_geonames_id int NOT NULL,
-    name_imf_code int NOT NULL,
+    name_geonames_id varchar(150) NOT NULL,
+    name_imf_code varchar(50) NOT NULL,
     name_iso2 VARCHAR(50) NOT NULL,
     name_iso3 VARCHAR(50) NOT NULL,
-    name_iso_numeric int NOT NULL,
-    name_oecd_code int NOT NULL,
+    name_iso_numeric VARCHAR(150) NOT NULL,
+    name_oecd_code VARCHAR(150) NOT NULL,
     name_oecd_name VARCHAR(150) NOT NULL,
-    name_un_code int NOT NULL,
+    name_un_code VARCHAR(150) NOT NULL,
     name_wb_code varchar(50) NOT NULL,
     PRIMARY KEY(id)
 );
@@ -60,8 +61,8 @@ CREATE TABLE project(
     id_project varchar(150) NOT NULL,
     id_geocoded int NOT NULL,
     project_title varchar(150) NOT NULL,
-    start_actual_isodate DATE NOT NULL,
-    end_actual_isodate DATE NOT NULL,
+    start_actual_isodate varchar(150) NOT NULL,
+    end_actual_isodate varchar(150) NOT NULL,
     donors VARCHAR(150) NOT NULL,
     donors_iso3 VARCHAR(150) NOT NULL,
     recipients int NOT NULL,
@@ -94,6 +95,7 @@ CREATE TABLE transaction(
     id_transaction varchar(50) NOT NULL,
     id_project int NOT NULL,
     transaction_isodate DATE NOT NULL,
+    transaction_year int NOT NULL,
     transaction_value_code varchar(10) NOT NULL,
     transaction_currency int NOT NULL,
     transaction_value DECIMAL(20,5) NOT NULL,

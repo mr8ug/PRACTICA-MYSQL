@@ -34,7 +34,7 @@ CREATE TABLE geonames_temp(
     gazetteer_adm_code VARCHAR(255),
     gazetteer_adm_name VARCHAR(255),
     location_class VARCHAR(255),
-    geographic_exactness VARCHAR(255)
+    geographical_exactness VARCHAR(255)
 );
 
 
@@ -68,9 +68,9 @@ CREATE TABLE projects_temp(
     ad_sector_codes VARCHAR(255),
     ad_sector_names VARCHAR(255),
     status VARCHAR(255),
-    transactions_start_year VARCHAR(255),
-    transactions_end_year VARCHAR(255),
-    total_commitments VARCHAR(255),
+    transactions_start_year int,
+    transactions_end_year int,
+    total_commitments varchar(255),
     total_disbursements VARCHAR(255)
 );
 

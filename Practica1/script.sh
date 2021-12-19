@@ -37,4 +37,4 @@ echo "***** CARGANDO MODELO ENTIDAD-RELACION EN BASE DE DATOS *****"
 mysql -u root -pcampos31 -e "source /home/mr8ug/Desktop/MIADIC21/Practica1/SQL_FILES/load_er.sql; show tables;" 2>/dev/null
 
 echo "***** MIGRANDO TABLAS TEMPORALES A MODELO ENTIDAD RELACION *****"
-mysql -u root -pcampos31 -e "source /home/mr8ug/Desktop/MIADIC21/Practica1/SQL_FILES/fill_database.sql" 2>/dev/null
+#mysql -u root -pcampos31 -e "source /home/mr8ug/Desktop/MIADIC21/Practica1/SQL_FILES/fill_database.sql;" 2>/dev/null

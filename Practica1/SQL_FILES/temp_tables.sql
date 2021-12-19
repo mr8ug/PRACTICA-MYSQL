@@ -1,4 +1,7 @@
---TABLA TEMPORAL COUNTRY CODES
+
+USE Practica1;
+
+
 CREATE TABLE country_codes_temp(
     name VARCHAR(255),
     iso2 VARCHAR(255),
@@ -20,7 +23,7 @@ CREATE TABLE country_codes_temp(
     name_wb_code VARCHAR(255)
 );
 
---TABLA TEMPORAL GEONAMES
+
 CREATE TABLE geonames_temp(
     geoname_id VARCHAR(255),
     place_name VARCHAR(255),
@@ -34,7 +37,7 @@ CREATE TABLE geonames_temp(
     geographic_exactness VARCHAR(255)
 );
 
---TABLA TEMPORAL LEVEL_1A
+
 CREATE TABLE level_1a_temp(
     project_id VARCHAR(255),
     project_location_id VARCHAR(255),
@@ -45,13 +48,13 @@ CREATE TABLE level_1a_temp(
     even_split_disbursements VARCHAR(255)
 );
 
---TABLA TEMPORAL LOCATIONS
+
 CREATE TABLE locations_temp(
     location_type_code VARCHAR(255),
     location_type_name VARCHAR(255)
 );
 
---TABLA TEMPORAL PROJECTS
+
 CREATE TABLE projects_temp(
     project_id VARCHAR(255),
     is_geocoded VARCHAR(255),
@@ -71,7 +74,7 @@ CREATE TABLE projects_temp(
     total_disbursements VARCHAR(255)
 );
 
---TABLA TEMPORAL TRANSACTIONS
+
 CREATE TABLE transactions_temp(
     transaction_id VARCHAR(255),
     project_id VARCHAR(255),

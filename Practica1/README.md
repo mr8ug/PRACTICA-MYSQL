@@ -23,4 +23,4 @@
 
 
 ## VIDEO PRESENTACION DE PRACTICA 1
-![video](https://www.youtube.com/watch?v=kRFLNDjSshE)
+![video](https://img.youtube.com/vi/kRFLNDjSshE/0.jpg)(https://www.youtube.com/watch?v=kRFLNDjSshE)

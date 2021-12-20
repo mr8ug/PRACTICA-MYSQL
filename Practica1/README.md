@@ -20,3 +20,7 @@
 
 ## Resultado Consultas 8-10
 ![cons8_10](https://github.com/mr8ug/MIADIC21/blob/main/Practica1/RESULTS_PNG/Consulta8-10.png)
+
+
+## VIDEO PRESENTACION DE PRACTICA 1
+![video](https://www.youtube.com/watch?v=kRFLNDjSshE)

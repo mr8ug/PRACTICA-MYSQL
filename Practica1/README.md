@@ -3,7 +3,7 @@
 ### Author: Carlos Emilio Campos Moran - 201612332
 
 # DIAGRAMA ENTIDAD RELACION
-![modelo_er](https://github.com/mr8ug/MIADIC21/blob/main/Practica1/ODC_ER_DIAGRAM/Diagrama%20ER.png)
+![modelo_er](https://github.com/mr8ug/MIADIC21/blob/main/Practica1/ODM_ER_DIAGRAM/Diagrama%20ER.png)
 
 ## Resultado de carga a tablas temporales
 ![temptables](https://github.com/mr8ug/MIADIC21/blob/main/Practica1/RESULTS_PNG/cantidad_control.png)

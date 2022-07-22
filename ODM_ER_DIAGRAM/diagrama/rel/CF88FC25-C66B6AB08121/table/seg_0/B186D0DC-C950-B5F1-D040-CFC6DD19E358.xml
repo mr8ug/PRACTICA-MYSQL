@@ -1,0 +1,244 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B186D0DC-C950-B5F1-D040-CFC6DD19E358" name="countrycodes">
+<createdBy>mr8ug</createdBy>
+<createdTime>2021-12-17 20:21:22 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+<ordsAlias>table_8</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="1C705D43-EC35-F00A-A366-1C86871AFA6F">
+<createdBy>mr8ug</createdBy>
+<createdTime>2021-12-17 20:31:42 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="name" id="E994E539-CBFF-C05D-6C75-BFC9A9BA123B">
+<createdBy>mr8ug</createdBy>
+<createdTime>2021-12-17 20:31:42 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150 CHAR</dataTypeSize>
+<ownDataTypeParameters>150 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="iso2" id="E3104243-E1EB-1169-AA23-F01EDC4DD16A">
+<createdBy>mr8ug</createdBy>
+<createdTime>2021-12-17 20:31:42 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="name_name" id="2EBEC592-CF19-1661-4A83-55DD172F1D80">
+<createdBy>mr8ug</createdBy>
+<createdTime>2021-12-17 20:31:42 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150 CHAR</dataTypeSize>
+<ownDataTypeParameters>150 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="name_aiddata_code" id="E492613B-9525-C616-8D75-3C7EA2A4D64E">
+<createdBy>mr8ug</createdBy>
+<createdTime>2021-12-17 20:31:42 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="name_aiddata_name" id="7B5CCBFB-92B0-AAE2-1793-5AAA4E44F90A">
+<createdBy>mr8ug</createdBy>
+<createdTime>2021-12-17 20:31:42 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="name_cow_alpha" id="BE4AE6E9-6457-B18C-C83C-B0D8695D8BF5">
+<createdBy>mr8ug</createdBy>
+<createdTime>2021-12-17 20:31:42 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="name_cow_numeric" id="73320385-AB87-67C2-FC93-102BCDB0B19B">
+<createdBy>mr8ug</createdBy>
+<createdTime>2021-12-17 20:31:42 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="name_fao_code" id="F8167087-DC90-3D0F-093C-C9DDD76CC9E6">
+<createdBy>mr8ug</createdBy>
+<createdTime>2021-12-17 20:31:42 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="name_fips" id="C6476A21-68BD-068B-74FF-9B742C0A39B2">
+<createdBy>mr8ug</createdBy>
+<createdTime>2021-12-17 20:31:42 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="name_geonames_id" id="73C01D93-324B-832F-71FA-0E8B3B9D908A">
+<createdBy>mr8ug</createdBy>
+<createdTime>2021-12-17 20:31:42 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="name_imf_code" id="3C6CBB3A-1835-C2B5-5AE6-5A0EF8F08C0A">
+<createdBy>mr8ug</createdBy>
+<createdTime>2021-12-17 20:31:42 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="name_iso2" id="B6349812-CCCF-A3E6-54B1-BEB5B29DF55B">
+<createdBy>mr8ug</createdBy>
+<createdTime>2021-12-17 20:31:42 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="name_iso3" id="9145BD0E-FB35-6C72-DB04-FD3E51DBDA97">
+<createdBy>mr8ug</createdBy>
+<createdTime>2021-12-17 20:31:42 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="name_iso_numeric" id="FFDEAD59-3A5F-7959-7C18-FB1FA708FA63">
+<createdBy>mr8ug</createdBy>
+<createdTime>2021-12-17 20:31:42 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="name_oecd_code" id="B02633C1-6779-AAB9-3684-FAD1FB1E4015">
+<createdBy>mr8ug</createdBy>
+<createdTime>2021-12-17 20:31:42 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="name_oecd_name" id="0773A63A-1501-6E83-046B-FBBD71AC81E4">
+<createdBy>mr8ug</createdBy>
+<createdTime>2021-12-17 20:31:42 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150 CHAR</dataTypeSize>
+<ownDataTypeParameters>150 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="name_un_code" id="80213505-17CA-2632-1987-5D7AEA37B40B">
+<createdBy>mr8ug</createdBy>
+<createdTime>2021-12-17 20:31:42 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="name_wb_code" id="2AB1F4AB-0074-C73B-19F0-9CD3562059D5">
+<createdBy>mr8ug</createdBy>
+<createdTime>2021-12-17 20:31:42 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="AA2070B8-DC6A-50D9-8CB4-F8D50B11C9C0" name="countrycodes_PK">
+<createdBy>mr8ug</createdBy>
+<createdTime>2021-12-17 20:31:42 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1C705D43-EC35-F00A-A366-1C86871AFA6F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

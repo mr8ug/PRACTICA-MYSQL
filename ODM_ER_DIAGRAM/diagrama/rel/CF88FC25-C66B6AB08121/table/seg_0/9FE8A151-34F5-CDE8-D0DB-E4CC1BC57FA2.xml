@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9FE8A151-34F5-CDE8-D0DB-E4CC1BC57FA2" name="locations">
+<createdBy>mr8ug</createdBy>
+<createdTime>2021-12-17 19:56:58 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+<ordsAlias>table_3</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="022B2250-EC5F-CE7E-574B-D2813534673D">
+<createdBy>mr8ug</createdBy>
+<createdTime>2021-12-17 19:59:49 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="location_type_code" id="792A9CEF-C416-EFCA-8865-18A0FC8948C8">
+<createdBy>mr8ug</createdBy>
+<createdTime>2021-12-17 19:59:49 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="location_type_name" id="C0954E93-A17C-F2C3-E86C-78198DB2B965">
+<createdBy>mr8ug</createdBy>
+<createdTime>2021-12-17 19:59:49 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150 CHAR</dataTypeSize>
+<ownDataTypeParameters>150 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="415ECA20-401B-B9C0-1CCA-C9545181208F" name="locations_PK">
+<createdBy>mr8ug</createdBy>
+<createdTime>2021-12-17 19:59:49 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="022B2250-EC5F-CE7E-574B-D2813534673D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

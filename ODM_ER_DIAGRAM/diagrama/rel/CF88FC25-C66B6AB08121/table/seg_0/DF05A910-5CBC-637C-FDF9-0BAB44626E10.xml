@@ -1,0 +1,241 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DF05A910-5CBC-637C-FDF9-0BAB44626E10" name="project">
+<createdBy>mr8ug</createdBy>
+<createdTime>2021-12-17 20:11:27 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+<ordsAlias>table_6</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="DAD3867C-893E-DA24-F8A2-0F0E4B393E62">
+<createdBy>mr8ug</createdBy>
+<createdTime>2021-12-18 01:43:17 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="idProject" id="7BFC8C91-8C13-7D94-BE2C-698608CF6F63">
+<createdBy>mr8ug</createdBy>
+<createdTime>2021-12-17 20:19:45 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150 CHAR</dataTypeSize>
+<ownDataTypeParameters>150 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="is_geocoded" id="7FA11A51-6681-04D8-A15A-0ECE69321C58">
+<createdBy>mr8ug</createdBy>
+<createdTime>2021-12-17 20:19:45 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="project_title" id="68387BF1-6911-4CC9-E44B-F52EA4F7C688">
+<createdBy>mr8ug</createdBy>
+<createdTime>2021-12-17 20:19:45 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150 CHAR</dataTypeSize>
+<ownDataTypeParameters>150 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="start_actual_isodate" id="3116D55B-C6F8-90D7-AE47-B8C3CA106097">
+<createdBy>mr8ug</createdBy>
+<createdTime>2021-12-17 20:19:45 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="end_actual_isodate" id="C1775D00-64C5-2305-FA2A-685B14E63931">
+<createdBy>mr8ug</createdBy>
+<createdTime>2021-12-17 20:19:45 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="donors" id="CB541302-7BD3-383B-278D-541E0532E433">
+<createdBy>mr8ug</createdBy>
+<createdTime>2021-12-17 20:19:45 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150 CHAR</dataTypeSize>
+<ownDataTypeParameters>150 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="donors_iso3" id="0B5D6647-43C2-4F77-5D32-FD5F69E15689">
+<createdBy>mr8ug</createdBy>
+<createdTime>2021-12-17 20:19:45 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="recipients" id="CB58D718-3A30-E238-1979-3C8D463A4267">
+<createdBy>mr8ug</createdBy>
+<createdTime>2021-12-17 20:19:45 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C475616B-857B-F19F-9059-9927AEF76820" referredColumn="1C705D43-EC35-F00A-A366-1C86871AFA6F"/>
+</associations>
+</Column>
+<Column name="recipients_iso3" id="9DB75BD8-0196-9041-A372-3D816667AEFE">
+<createdBy>mr8ug</createdBy>
+<createdTime>2021-12-17 20:19:45 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ad_sector_codes" id="0F0B9BA1-35A3-98A1-EE92-9458FD9FEC41">
+<createdBy>mr8ug</createdBy>
+<createdTime>2021-12-17 20:19:45 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150 CHAR</dataTypeSize>
+<ownDataTypeParameters>150 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ad_sector_names" id="9CD1BBED-ACE3-EB1F-C447-5AFC4D750A89">
+<createdBy>mr8ug</createdBy>
+<createdTime>2021-12-17 20:19:45 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>300 CHAR</dataTypeSize>
+<ownDataTypeParameters>300 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="status" id="D174C1BF-3DC6-0603-D42C-BF13168DCC2A">
+<createdBy>mr8ug</createdBy>
+<createdTime>2021-12-17 20:19:45 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="22BA05DA-C449-2997-B71E-9C5595F7199E" referredColumn="EA7C08D6-FD16-32B7-852B-7DF01F001038"/>
+</associations>
+</Column>
+<Column name="transtactions_start_year" id="564784F8-F8B8-B87A-2C5A-4601265E8924">
+<createdBy>mr8ug</createdBy>
+<createdTime>2021-12-17 20:19:45 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="transactions_end_year" id="8F241E7D-14C8-8EF4-AA77-6F7760ABECC6">
+<createdBy>mr8ug</createdBy>
+<createdTime>2021-12-17 20:19:45 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="total_commitments" id="006E401A-8F9D-2251-25CB-93809ED65C3E">
+<createdBy>mr8ug</createdBy>
+<createdTime>2021-12-17 20:19:45 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="total_disbursements" id="54B0B6C5-1FEA-B406-98F7-ADA649AD3E78">
+<createdBy>mr8ug</createdBy>
+<createdTime>2021-12-17 20:19:45 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FB8A1825-4C67-B94D-A1F1-E357BFFA9F1C" name="project_PK">
+<createdBy>mr8ug</createdBy>
+<createdTime>2021-12-17 20:19:45 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DAD3867C-893E-DA24-F8A2-0F0E4B393E62"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="27370CF1-E2AD-470A-5300-74D8AA346C41" name="project_countrycodes_FK">
+<createdBy>mr8ug</createdBy>
+<createdTime>2021-12-18 02:15:36 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CB58D718-3A30-E238-1979-3C8D463A4267"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7D3B0002-7893-4763-5C24-13B91BEF685C" name="project_status_FK">
+<createdBy>mr8ug</createdBy>
+<createdTime>2021-12-18 21:21:51 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D174C1BF-3DC6-0603-D42C-BF13168DCC2A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
